@@ -1,0 +1,54 @@
+{ "name": "objdepth",
+  "version": "0.1.0",
+  "description": "Analyze any value for how deep an object structure it contains and where there might be recursion. Formerly known as object-depth-finder.",
+  "keywords": [
+    "array",
+    "circular data",
+    "circular reference",
+    "circular references",
+    "circular structure",
+    "circular structures",
+    "circular",
+    "data structure",
+    "data structures",
+    "depth finder",
+    "depth",
+    "echolot",
+    "loop",
+    "object depth finder",
+    "objdepth",
+    "object",
+    "recursion",
+    "recursive",
+    "self-reference",
+    "sonar",
+    "tree"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/objdepth-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/objdepth-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/objdepth-js/issues"
+  },
+
+  "private": false, "license": "ISC",
+
+  "main": "odf.js",
+  "scripts": { "test": "nodejs test/test.js" },
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+
+  "devDependencies": {
+    "ersatz-compactjson": "^0.1.1",
+    "json-fixtures-tester-pmb": "^0.1.0"
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
